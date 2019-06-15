@@ -245,6 +245,9 @@
     <Compile Include="Assets\Script\Camera\SceneController.cs" />
     <Compile Include="Assets\Script\Game_Script\CountDownTimer.cs" />
     <Compile Include="Assets\Script\Object_Script\Click_Event.cs" />
+    <Compile Include="Assets\Script\Object_Script\Hint\Hint_Cooldown.cs" />
+    <Compile Include="Assets\Script\Object_Script\Hint\Hint_Script.cs" />
+    <Compile Include="Assets\Script\Object_Script\Hint\Hint_text.cs" />
     <Compile Include="Assets\Script\Object_Script\Image_Script.cs" />
     <Compile Include="Assets\Script\Object_Script\Object_Script.cs" />
     <Compile Include="Assets\Script\Object_Script\Pause_Menu.cs" />

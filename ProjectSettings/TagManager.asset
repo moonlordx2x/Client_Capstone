@@ -6,6 +6,7 @@ TagManager:
   tags:
   - hidden_object
   - text_object
+  - hint_object
   layers:
   - Default
   - TransparentFX
