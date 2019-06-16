@@ -5,12 +5,25 @@ using UnityEngine.UI;
 
 public class CountDownTimer : MonoBehaviour {
 
-
-    float startime = 299;
+    public GameObject Success;
+    public GameObject Game_over;
+    public GameObject hidden_object;
+    public GameObject hint_button;
+    public GameObject hint_text;
+    public GameObject hint_cooldown;
+    public GameObject text_object;
+    public GameObject object1;
+    public GameObject object2;
+    public GameObject object3;
+    public GameObject object4;
+    public GameObject pause_menu;
+    float startime = 300f;
     public Text text;
 	// Use this for initialization
 	void Start () {
-       StartCoundownTimer();
+        Game_over.SetActive(false);
+        Success.SetActive(false);
+        StartCoundownTimer();
     }
     
     void StartCoundownTimer()
@@ -37,10 +50,42 @@ public class CountDownTimer : MonoBehaviour {
 
     // Update is called once per frame
     void Update () {
-
-        if(text.text == "00:00")
+    
+        Debug.Log(Click_Event.object_found);
+        if (Click_Event.object_found == 10)
         {
-            Debug.Log("Game Over");
+            Success.SetActive(true);
+            Game_over.SetActive(false);
+            hidden_object.SetActive(false);
+            hint_button.SetActive(false);
+            hint_text.SetActive(false);
+            hint_cooldown.SetActive(false);
+            text_object.SetActive(false);
+            object1.SetActive(false);
+            object2.SetActive(false);
+            object3.SetActive(false);
+            object4.SetActive(false);
+            pause_menu.SetActive(false);
+            Time.timeScale = 0f;
+        }
+      
+
+
+        if (text.text == "00:00")
+        {
+
+            Game_over.SetActive(true);
+            hidden_object.SetActive(false);
+            hint_button.SetActive(false);
+            hint_text.SetActive(false);
+            hint_cooldown.SetActive(false);
+            text_object.SetActive(false);
+            object1.SetActive(false);
+            object2.SetActive(false);
+            object3.SetActive(false);
+            object4.SetActive(false);
+            pause_menu.SetActive(false);
+            Time.timeScale = 0f;
         }
 	}
 }

@@ -9,6 +9,7 @@ public class Hint_text : MonoBehaviour {
     public Text hint_text;
 	
 	void Start () {
+        total_hint = 2;
     }
 	
 	

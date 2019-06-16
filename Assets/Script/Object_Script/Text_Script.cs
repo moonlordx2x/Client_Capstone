@@ -28,10 +28,8 @@ public class Text_Script : MonoBehaviour {
             text = text_object[i].GetComponent<Text>();
             text.text = "" + hidden_object[i].name;
             text_object[i].name = hidden_object[i].name;
-        }
 
-        Debug.Log(hidden_object[2].name);
-        Debug.Log(text_object[2].name);
+        }
 
 
 

@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class Object_Script : MonoBehaviour {
 
-
-    public GameObject[] sample;
     // Use this for initialization
     void Start () {
     }

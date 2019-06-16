@@ -12,6 +12,7 @@ public class Hint_Script : MonoBehaviour {
 
     float hint_time = 5f;
     bool hint_display = false;
+    public static bool hint_cooldown_image = false;
 
     void Start () {
         hint_cooldown.SetActive(false);
@@ -22,9 +23,11 @@ public class Hint_Script : MonoBehaviour {
 	void Update () {
         if(hint_display == true)
         {
+            hint_object.SetActive(true);
+            text_object.SetActive(false);
             hint_time -= Time.deltaTime;
 
-            if(hint_time <= 0)
+            if (hint_time <= 0)
             {
                 hint_object.SetActive(false);
                 text_object.SetActive(true);
@@ -32,19 +35,21 @@ public class Hint_Script : MonoBehaviour {
                 hint_time = 5f;
             }
         }
+        else
+        {
+            hint_object.SetActive(false);
+            text_object.SetActive(true);
+        }
     }
 
     public void hint_click()
     {
         if(Hint_text.total_hint >= 1)
         {
-            Debug.Log("Clicked");
             hint_cooldown.SetActive(true);
-            hint_object.SetActive(true);
-            text_object.SetActive(false);
             Hint_text.total_hint -= 1;
-
             hint_display = true;
+            hint_cooldown_image = true;
 
 
         }
