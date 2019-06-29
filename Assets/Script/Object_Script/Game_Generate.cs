@@ -9,11 +9,13 @@ public class Game_Generate : MonoBehaviour {
     public GameObject hint_object;
     public GameObject text_object;
     public GameObject loading_object;
+    public GameObject Animation;
     float timer = 0.20f;
 	// Use this for initialization
 	void Start () {
         text_object.SetActive(true);
         loading_object.SetActive(true);
+        Animation.SetActive(false);
     }
 	
 	// Update is called once per frame
@@ -27,6 +29,7 @@ public class Game_Generate : MonoBehaviour {
             hint_object.SetActive(false);
             loading_object.SetActive(false);
             text_object.SetActive(true);
+            Animation.SetActive(true);
         }
 
     }

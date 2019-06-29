@@ -12,6 +12,11 @@ public class SceneController : MonoBehaviour
         SceneManager.LoadScene("Start_Menu");
     }
 
+    public void hidden_object_stage()
+    {
+        SceneManager.LoadScene("Hidden_Object_Stage_Select");
+    }
+
     public void hidden_object()
     {
         SceneManager.LoadScene("Hidden_Object_1");

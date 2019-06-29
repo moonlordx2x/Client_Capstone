@@ -25,9 +25,9 @@ public class Text_Script : MonoBehaviour {
         */
         for (int i = 0; i < 10; i++)
         {
-            text = text_object[i].GetComponent<Text>();
-            text.text = "" + hidden_object[i].name;
+            text = text_object[i].GetComponentInChildren<Text>();
             text_object[i].name = hidden_object[i].name;
+            text.text = "" + hidden_object[i].name;
 
         }
 

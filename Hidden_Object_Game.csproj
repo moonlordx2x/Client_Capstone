@@ -241,6 +241,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Script\Animations\Start_Game.cs" />
+    <Compile Include="Assets\Script\Animations\Ui_Controller.cs" />
     <Compile Include="Assets\Script\Camera\Camera_raio.cs" />
     <Compile Include="Assets\Script\Camera\SceneController.cs" />
     <Compile Include="Assets\Script\Game_Script\CountDownTimer.cs" />

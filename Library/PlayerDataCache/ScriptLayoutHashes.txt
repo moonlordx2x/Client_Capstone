@@ -3,6 +3,7 @@ PlayerPath?
 C:/Users/Neil Bryan Lagrimas/Documents/UNITY/Hidden_Object_Game/Hidden_Object.apk
 SceneListBegin?
 Assets/Scene/Start_Menu.unity
+Assets/Scene/Hidden_Object_Stage_Select.unity
 Assets/Scene/Hidden_Object_1.unity
 SceneListEnd?
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Camera_raio
@@ -51,6 +52,7 @@ c63db43c730fa2cbb8ca07de15898cb6 UnityEngine.UI.dll:UnityEngine.UI.Toggle
 f61c0793411f10cf5fbfa1473fef5ef2 UnityEngine.UI.dll:UnityEngine.UI.ToggleGroup
 86d36c43c53541d667100dc90b89cfba UnityEngine.UI.dll:UnityEngine.EventSystems.TouchInputModule
 1b8c02d0aa82fbf036a2b9b2d713eec3 UnityEngine.UI.dll:UnityEngine.UI.VerticalLayoutGroup
+52a206462cfa2bd4a0e935b379702fe4 Assembly-CSharp.dll:.Game_Generate
 8e9f5b922979e9356a11d2ee2b32ee60 Assembly-CSharp-firstpass.dll:UnityStandardAssets.CrossPlatformInput.TiltInput
 a35dc9cca2faebc5f5f1aeb9e8e47bbe UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.UI.dll:UnityEngine.EventSystems.BaseInput
@@ -121,6 +123,7 @@ bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.Audi
 c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingCollider
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingRenderer
 78ebae5ed9b3edeb216da437b99754a4 Assembly-CSharp-firstpass.dll:UnityStandardAssets.CrossPlatformInput.Joystick
+f798480f08e6053ee3fed19b0277383a Assembly-CSharp.dll:.Start_Game
 a2efb0db652b8114d1ae7dd9a600d626 Assembly-CSharp-firstpass.dll:UnityStandardAssets.CrossPlatformInput.InputAxisScrollbar
 fe76270bd84ec3b6f2f6f92c69cf69da Assembly-CSharp-firstpass.dll:UnityStandardAssets.CrossPlatformInput.AxisTouchButton
 a7d3c6c6948d99dd4116e659ddcf5ac4 Assembly-CSharp-firstpass.dll:UnityStandardAssets.CrossPlatformInput.ButtonHandler
@@ -166,4 +169,4 @@ a8796ecdc9d5c260bbe32f30c4b10708 Assembly-CSharp-firstpass.dll:UnityStandardAsse
 5ed7316911b08cc89d1da8aff41eee6f Assembly-CSharp.dll:.Hint_Cooldown
 2647d5afab8f8a9eed180bc2b4541364 Assembly-CSharp.dll:.Pause_Menu
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Image_Script
-48f7a158a28eca33d9a9f73b02f213f0 Assembly-CSharp.dll:.Game_Generate
+2358144b171cae84c0842495e5c80b15 Assembly-CSharp.dll:.Ui_Controller

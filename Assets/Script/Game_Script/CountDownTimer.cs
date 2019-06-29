@@ -17,7 +17,8 @@ public class CountDownTimer : MonoBehaviour {
     public GameObject object3;
     public GameObject object4;
     public GameObject pause_menu;
-    float startime = 300f;
+    public static float startime = 309f;
+    public static int total_star = 0;
     public Text text;
 	// Use this for initialization
 	void Start () {
@@ -50,8 +51,19 @@ public class CountDownTimer : MonoBehaviour {
 
     // Update is called once per frame
     void Update () {
-    
-        Debug.Log(Click_Event.object_found);
+        if (startime >= 201f)
+        {
+            total_star = 3;
+        }
+        else if(startime >= 101f && startime <= 200f)
+        {
+            total_star = 2;
+        }
+        else
+        {
+            total_star = 1;
+        }
+
         if (Click_Event.object_found == 10)
         {
             Success.SetActive(true);
@@ -66,7 +78,6 @@ public class CountDownTimer : MonoBehaviour {
             object3.SetActive(false);
             object4.SetActive(false);
             pause_menu.SetActive(false);
-            Time.timeScale = 0f;
         }
       
 

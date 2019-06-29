@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scene/Hidden_Object_1.unity
+- path: Assets/Scene/Start_Menu.unity
   isLoaded: 1
   isActive: 1

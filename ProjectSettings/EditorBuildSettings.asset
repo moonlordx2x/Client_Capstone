@@ -9,5 +9,8 @@ EditorBuildSettings:
     path: Assets/Scene/Start_Menu.unity
     guid: 7386792e9c794bb45b5490a3c82a4216
   - enabled: 1
+    path: Assets/Scene/Hidden_Object_Stage_Select.unity
+    guid: 05dceed1e1e93c3419da2466add8432e
+  - enabled: 1
     path: Assets/Scene/Hidden_Object_1.unity
     guid: bc11825086172b941b036d7cdd555dbb

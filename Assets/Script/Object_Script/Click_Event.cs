@@ -20,16 +20,16 @@ public class Click_Event : MonoBehaviour {
     public void ClickEvent()
     {
         Click_event_variable = this.gameObject.name.ToString();
-
         for (int i = 0; i < Text_Script.text_object.Length; i++)
         {
             if (Click_event_variable == Text_Script.hidden_object[i].name)
             {
-                Debug.Log("Object Found " + Text_Script.hidden_object[i].name);
+                //Debug.Log("Object Found " + Text_Script.hidden_object[i].name);
                 object_found += 1;
                 Text_Script.text_object[i].SetActive(false);
                 Image_Script.hint_object[i].SetActive(false);
                 this.gameObject.SetActive(false);
+                
                 break;
             }
 
