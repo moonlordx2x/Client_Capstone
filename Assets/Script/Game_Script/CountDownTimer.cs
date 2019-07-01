@@ -17,11 +17,12 @@ public class CountDownTimer : MonoBehaviour {
     public GameObject object3;
     public GameObject object4;
     public GameObject pause_menu;
-    public static float startime = 309f;
+    public static float startime;
     public static int total_star = 0;
     public Text text;
 	// Use this for initialization
 	void Start () {
+        //startime = 300f;
         Game_over.SetActive(false);
         Success.SetActive(false);
         StartCoundownTimer();

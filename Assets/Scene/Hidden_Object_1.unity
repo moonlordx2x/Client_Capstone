@@ -3584,7 +3584,7 @@ Animator:
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: ac16cb65177ce7f47b333615ad0d5590, type: 2}
   m_CullingMode: 0
-  m_UpdateMode: 0
+  m_UpdateMode: 2
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_WarningMessage: 
@@ -4961,7 +4961,7 @@ MonoBehaviour:
     m_FontStyle: 1
     m_BestFit: 1
     m_MinSize: 10
-    m_MaxSize: 40
+    m_MaxSize: 50
     m_Alignment: 4
     m_AlignByGeometry: 1
     m_RichText: 1
@@ -8692,6 +8692,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   start: 2
   deduction: 1
+  Counter: {fileID: 2084692908}
 --- !u!1 &2084692908
 GameObject:
   m_ObjectHideFlags: 0

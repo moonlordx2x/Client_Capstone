@@ -7,22 +7,24 @@ public class Text_Script : MonoBehaviour {
 
     public static GameObject[] text_object;
     public static GameObject[] hidden_object;
+
     Text text;
 
     // Use this for initialization
     void Start () {
         text_object = GameObject.FindGameObjectsWithTag("text_object");
         hidden_object = GameObject.FindGameObjectsWithTag("hidden_object");
-        /*
+
+        
         for(int i = 0;i < hidden_object.Length; i++)
         {
-            int rand = Random.Range(0, hidden_object.Length);
+            GameObject sample_object = hidden_object[i];
+            int rand = Random.Range(0, i);
             hidden_object[i] = hidden_object[rand];
-            Debug.Log(hidden_object[i].name);
-      
+            hidden_object[rand] = sample_object;
         }
 
-        */
+
         for (int i = 0; i < 10; i++)
         {
             text = text_object[i].GetComponentInChildren<Text>();
