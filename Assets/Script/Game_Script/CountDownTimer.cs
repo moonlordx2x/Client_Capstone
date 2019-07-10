@@ -18,11 +18,12 @@ public class CountDownTimer : MonoBehaviour {
     public GameObject object4;
     public GameObject pause_menu;
     public static float startime;
+    public static bool startime_checker = false;
     public static int total_star = 0;
     public Text text;
 	// Use this for initialization
 	void Start () {
-        //startime = 300f;
+        startime = 299f;
         Game_over.SetActive(false);
         Success.SetActive(false);
         StartCoundownTimer();
@@ -40,12 +41,16 @@ public class CountDownTimer : MonoBehaviour {
 
     void UpdateTimer()
     {
-        if (text != null)
+        if (text != null && startime_checker == true)
         {
             startime -= Time.deltaTime;
             string minutes = Mathf.Floor(startime / 60).ToString("00");
             string seconds = (startime % 60).ToString("00");
             text.text = minutes + ":" + seconds;
+        }
+        else
+        {
+            text.text = "05:00";
         }
     }
    

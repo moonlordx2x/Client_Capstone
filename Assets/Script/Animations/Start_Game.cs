@@ -7,10 +7,8 @@ public class Start_Game : MonoBehaviour {
 
     public float start;
     public float deduction;
-    public GameObject Counter;
     // Use this for initialization
     void Start () {
-        Counter.SetActive(false);
 
     }
 	
@@ -20,8 +18,7 @@ public class Start_Game : MonoBehaviour {
         if (start <=0)
         {
             this.gameObject.SetActive(false);
-            Counter.SetActive(true);
-            CountDownTimer.startime = 299f;
+            CountDownTimer.startime_checker = true;
         }
 	}
 }
