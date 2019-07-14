@@ -5,6 +5,8 @@ SceneListBegin?
 Assets/Scene/Start_Menu.unity
 Assets/Scene/Hidden_Object_Stage_Select.unity
 Assets/Scene/Hidden_Object_1.unity
+Assets/Scene/Hidden_Object_2.unity
+Assets/Scene/Hidden_Object_3.unity
 SceneListEnd?
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Camera_raio
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
@@ -125,6 +127,7 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 78ebae5ed9b3edeb216da437b99754a4 Assembly-CSharp-firstpass.dll:UnityStandardAssets.CrossPlatformInput.Joystick
 f798480f08e6053ee3fed19b0277383a Assembly-CSharp.dll:.Start_Game
 a2efb0db652b8114d1ae7dd9a600d626 Assembly-CSharp-firstpass.dll:UnityStandardAssets.CrossPlatformInput.InputAxisScrollbar
+2358144b171cae84c0842495e5c80b15 Assembly-CSharp.dll:.Ui_Controller
 fe76270bd84ec3b6f2f6f92c69cf69da Assembly-CSharp-firstpass.dll:UnityStandardAssets.CrossPlatformInput.AxisTouchButton
 a7d3c6c6948d99dd4116e659ddcf5ac4 Assembly-CSharp-firstpass.dll:UnityStandardAssets.CrossPlatformInput.ButtonHandler
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Object_Script
@@ -169,4 +172,3 @@ a8796ecdc9d5c260bbe32f30c4b10708 Assembly-CSharp-firstpass.dll:UnityStandardAsse
 5ed7316911b08cc89d1da8aff41eee6f Assembly-CSharp.dll:.Hint_Cooldown
 2647d5afab8f8a9eed180bc2b4541364 Assembly-CSharp.dll:.Pause_Menu
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Image_Script
-2358144b171cae84c0842495e5c80b15 Assembly-CSharp.dll:.Ui_Controller

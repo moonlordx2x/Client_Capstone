@@ -21,4 +21,14 @@ public class SceneController : MonoBehaviour
     {
         SceneManager.LoadScene("Hidden_Object_1");
     }
+
+    public void hidden_object_2()
+    {
+        SceneManager.LoadScene("Hidden_Object_2");
+    }
+
+    public void hidden_object_3()
+    {
+        SceneManager.LoadScene("Hidden_Object_3");
+    }
 }
