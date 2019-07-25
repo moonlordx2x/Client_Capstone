@@ -21,9 +21,11 @@ public class CountDownTimer : MonoBehaviour {
     public static bool startime_checker = false;
     public static int total_star = 0;
     public Text text;
-	// Use this for initialization
-	void Start () {
-        startime = 299f;
+    public string db_playerpref;
+    public string star_playerpref;
+    // Use this for initialization
+    void Start () {
+        startime = 179f;
         Game_over.SetActive(false);
         Success.SetActive(false);
         StartCoundownTimer();
@@ -50,24 +52,30 @@ public class CountDownTimer : MonoBehaviour {
         }
         else
         {
-            text.text = "05:00";
+            text.text = "03:00";
         }
     }
    
 
     // Update is called once per frame
     void Update () {
-        if (startime >= 201f)
+        if (startime >= 121)
         {
             total_star = 3;
+            PlayerPrefs.SetString(db_playerpref, "Completed");
+            PlayerPrefs.SetInt(star_playerpref, 3);
         }
-        else if(startime >= 101f && startime <= 200f)
+        else if(startime >= 61f && startime <= 120f)
         {
             total_star = 2;
+            PlayerPrefs.SetString(db_playerpref, "Completed");
+            PlayerPrefs.SetInt(star_playerpref, 2);
         }
         else
         {
             total_star = 1;
+            PlayerPrefs.SetString(db_playerpref, "Completed");
+            PlayerPrefs.SetInt(star_playerpref, 1);
         }
 
         if (Click_Event.object_found == 10)

@@ -20,3 +20,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scene/Hidden_Object_3.unity
     guid: 24f4b16a8b3b9ee4a8bc12044b8939b1
+  - enabled: 1
+    path: Assets/Scene/Hidden_Object_4.unity
+    guid: 3d75a418118bd284da45d844e20f5378
+  - enabled: 1
+    path: Assets/Scene/Hidden_Object_5.unity
+    guid: b6cd5874fa7996f4b8048c3c72da39a9

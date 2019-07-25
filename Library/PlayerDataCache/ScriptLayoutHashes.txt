@@ -7,6 +7,8 @@ Assets/Scene/Hidden_Object_Stage_Select.unity
 Assets/Scene/Hidden_Object_1.unity
 Assets/Scene/Hidden_Object_2.unity
 Assets/Scene/Hidden_Object_3.unity
+Assets/Scene/Hidden_Object_4.unity
+Assets/Scene/Hidden_Object_5.unity
 SceneListEnd?
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Camera_raio
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset

@@ -5789,7 +5789,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1391174867}
-        m_MethodName: hidden_object
+        m_MethodName: hidden_object_2
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -8861,6 +8861,8 @@ MonoBehaviour:
   object4: {fileID: 2084692908}
   pause_menu: {fileID: 660057539}
   text: {fileID: 2084692910}
+  db_playerpref: hidden_object_3
+  star_playerpref: hidden_object_star_2
 --- !u!1 &2110218130
 GameObject:
   m_ObjectHideFlags: 0
