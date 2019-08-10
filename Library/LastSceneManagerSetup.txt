@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scene/Start_Menu.unity
+- path: Assets/Scene/Dodge_Stage_1.unity
   isLoaded: 1
   isActive: 1

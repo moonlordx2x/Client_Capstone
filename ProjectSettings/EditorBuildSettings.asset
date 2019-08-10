@@ -26,3 +26,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scene/Hidden_Object_5.unity
     guid: b6cd5874fa7996f4b8048c3c72da39a9
+  - enabled: 1
+    path: Assets/Scene/Dodge_Stage_1.unity
+    guid: 9f24de73942a02240880315655e24da5
+  - enabled: 1
+    path: Assets/Scene/Dodge_Stage_Select.unity
+    guid: a9bded0059b25494c8617c3f5b8d802c
+  - enabled: 1
+    path: Assets/Scene/Main_Stage_Menu.unity
+    guid: fa7fadcb7943d0343bb472a45f512806

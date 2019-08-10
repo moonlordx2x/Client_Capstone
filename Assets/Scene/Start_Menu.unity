@@ -191,7 +191,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 529524228}
-        m_MethodName: hidden_object_stage
+        m_MethodName: Main_Stage_Menu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

@@ -41,4 +41,20 @@ public class SceneController : MonoBehaviour
     {
         SceneManager.LoadScene("Hidden_Object_5");
     }
+
+
+    public void Dodge_Stage_1()
+    {
+        SceneManager.LoadScene("Dodge_Stage_1");
+    }
+
+    public void Dodge_Stage_Select()
+    {
+        SceneManager.LoadScene("Dodge_Stage_Select");
+    }
+
+    public void Main_Stage_Menu()
+    {
+        SceneManager.LoadScene("Main_Stage_Menu");
+    }
 }
