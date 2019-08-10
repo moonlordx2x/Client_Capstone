@@ -5,7 +5,7 @@ using UnityStandardAssets.CrossPlatformInput;
 
 public class Player_Controller : MonoBehaviour {
 
-    private float speed = 25f;
+    private float speed = 40f;
     private float movement = 0f;
     public Animator animate;
     public Rigidbody2D Rigidbody2D;
