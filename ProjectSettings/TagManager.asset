@@ -8,6 +8,8 @@ TagManager:
   - text_object
   - hint_object
   - Player_Tag
+  - Platform
+  - Falling_Object
   layers:
   - Default
   - TransparentFX
