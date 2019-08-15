@@ -6,10 +6,9 @@ public class Click_Event : MonoBehaviour {
 
     public static string Click_event_variable;
     public static int object_found;
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start () {
         object_found = 0;
-
     }
 	
 	// Update is called once per frame

@@ -22,26 +22,6 @@ public class Ui_Controller : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
-        /*
-
-        start -= deduction * Time.deltaTime;
-        Debug.Log(CountDownTimer.startime);
-        if (start <= 4f && start >= 3f)
-        {
-            star1.SetActive(true);
-        }
-
-        if (start <= 2.5f && start >= 1f)
-        {
-            star2.SetActive(true);
-        }
-
-        if (start <= 0f)
-        {
-            star3.SetActive(true);
-        }
-
-        */
 
         if(CountDownTimer.total_star == 3)
         {
@@ -55,9 +35,6 @@ public class Ui_Controller : MonoBehaviour {
         {
             one_star();
         }
-
-
-
     }
 
 

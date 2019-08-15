@@ -9,7 +9,7 @@ public class Start_Game : MonoBehaviour {
     public float deduction;
     // Use this for initialization
     void Start () {
-
+        CountDownTimer.startime_checker = false;
     }
 	
 	// Update is called once per frame

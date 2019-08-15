@@ -18,14 +18,16 @@ public class CountDownTimer : MonoBehaviour {
     public GameObject object4;
     public GameObject pause_menu;
     public static float startime;
-    public static bool startime_checker = false;
+    public static bool startime_checker;
     public static int total_star = 0;
     public Text text;
     public string db_playerpref;
     public string star_playerpref;
     // Use this for initialization
     void Start () {
+        Time.timeScale = 1f;
         startime = 179f;
+        startime_checker = false;
         Game_over.SetActive(false);
         Success.SetActive(false);
         StartCoundownTimer();
@@ -56,27 +58,12 @@ public class CountDownTimer : MonoBehaviour {
         }
     }
    
-
     // Update is called once per frame
     void Update () {
-        if (startime >= 121)
-        {
-            total_star = 3;
-            PlayerPrefs.SetString(db_playerpref, "Completed");
-            PlayerPrefs.SetInt(star_playerpref, 3);
-        }
-        else if(startime >= 61f && startime <= 120f)
-        {
-            total_star = 2;
-            PlayerPrefs.SetString(db_playerpref, "Completed");
-            PlayerPrefs.SetInt(star_playerpref, 2);
-        }
-        else
-        {
-            total_star = 1;
-            PlayerPrefs.SetString(db_playerpref, "Completed");
-            PlayerPrefs.SetInt(star_playerpref, 1);
-        }
+        int player_int = PlayerPrefs.GetInt(star_playerpref);
+        string player_string = PlayerPrefs.GetString(db_playerpref);
+
+        Debug.Log(startime);
 
         if (Click_Event.object_found == 10)
         {
@@ -92,13 +79,46 @@ public class CountDownTimer : MonoBehaviour {
             object3.SetActive(false);
             object4.SetActive(false);
             pause_menu.SetActive(false);
+            startime_checker = false;
+            if (startime >= 121f && startime <= 179f)
+            {
+                Debug.Log("Below 3 minutes");
+                total_star = 3;
+                if (player_int >= 0 && player_int <= 3)
+                {
+                    PlayerPrefs.SetInt(star_playerpref, 3);
+                    PlayerPrefs.SetString(db_playerpref, "Completed");
+                }
+            }
+
+            else if (startime >= 61f && startime <= 120f)
+            {
+                Debug.Log("Below 2 minutes");
+                total_star = 2;
+                if (player_int >= 0 && player_int <= 2)
+                {
+                    PlayerPrefs.SetInt(star_playerpref, 2);
+                    PlayerPrefs.SetString(db_playerpref, "Completed");
+                }
+            }
+
+            else if (startime <= 60f && startime >= 2f)
+            {
+                Debug.Log("Below 1 minutes");
+                total_star = 1;
+                if (player_int >= 0 && player_int <= 1)
+                {
+                    PlayerPrefs.SetInt(star_playerpref, 1);
+                    PlayerPrefs.SetString(db_playerpref, "Completed");
+                }
+            }
         }
       
 
 
         if (text.text == "00:00")
         {
-
+            startime_checker = false;
             Game_over.SetActive(true);
             hidden_object.SetActive(false);
             hint_button.SetActive(false);
@@ -110,6 +130,13 @@ public class CountDownTimer : MonoBehaviour {
             object3.SetActive(false);
             object4.SetActive(false);
             pause_menu.SetActive(false);
+
+            if (player_string != "Completed")
+            {
+                total_star = 0;
+                PlayerPrefs.SetInt(star_playerpref, 0);
+                PlayerPrefs.SetString(db_playerpref, "inCompleted");
+            }
             Time.timeScale = 0f;
         }
 	}

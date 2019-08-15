@@ -18,17 +18,17 @@ public class Stage_Select : MonoBehaviour {
     // Use this for initialization
     void Start () {
 
-        PlayerPrefs.SetString("hidden_object_1", "Completed");
-
         if (PlayerPrefs.GetString(db_playerpref_stage) == "Completed")
         {
             hidden_object_button.SetActive(true);
             text_object.SetActive(false);
+            Debug.Log(PlayerPrefs.GetInt(star_playerpref_stage));
         }
         else
         {
             hidden_object_button.SetActive(false);
             text_object.SetActive(true);
+            Debug.Log(PlayerPrefs.GetInt(star_playerpref_stage));
         }
 
         if(PlayerPrefs.GetInt(star_playerpref_stage) == 3)

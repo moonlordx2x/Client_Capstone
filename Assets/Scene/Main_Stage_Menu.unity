@@ -129,7 +129,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &5363997
 RectTransform:
   m_ObjectHideFlags: 0
@@ -197,7 +197,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &26190919
 RectTransform:
   m_ObjectHideFlags: 0
@@ -265,7 +265,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &85786286
 RectTransform:
   m_ObjectHideFlags: 0
@@ -333,7 +333,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &210454660
 RectTransform:
   m_ObjectHideFlags: 0
@@ -401,7 +401,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &235249255
 RectTransform:
   m_ObjectHideFlags: 0
@@ -679,7 +679,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &434186066
 RectTransform:
   m_ObjectHideFlags: 0
@@ -741,7 +741,6 @@ GameObject:
   - component: {fileID: 642326462}
   - component: {fileID: 642326464}
   - component: {fileID: 642326463}
-  - component: {fileID: 642326465}
   m_Layer: 5
   m_Name: Stage_3
   m_TagString: Untagged
@@ -805,24 +804,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 642326461}
---- !u!114 &642326465
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 642326461}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7282fcaceac8f0345a55d1a3d85cb567, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hidden_object_button: {fileID: 0}
-  text_object: {fileID: 1871011464}
-  db_playerpref_stage: hidden_object_3
-  star_playerpref_stage: hidden_object_star_3
-  star_1: {fileID: 0}
-  star_2: {fileID: 0}
-  star_3: {fileID: 0}
 --- !u!1 &712688767
 GameObject:
   m_ObjectHideFlags: 0
@@ -1041,7 +1022,6 @@ GameObject:
   - component: {fileID: 984534847}
   - component: {fileID: 984534849}
   - component: {fileID: 984534848}
-  - component: {fileID: 984534850}
   m_Layer: 5
   m_Name: Stage_1
   m_TagString: Untagged
@@ -1108,24 +1088,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 984534846}
---- !u!114 &984534850
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 984534846}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7282fcaceac8f0345a55d1a3d85cb567, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hidden_object_button: {fileID: 1948224971}
-  text_object: {fileID: 0}
-  db_playerpref_stage: hidden_object_1
-  star_playerpref_stage: hidden_object_star_1
-  star_1: {fileID: 1432415166}
-  star_2: {fileID: 1630360414}
-  star_3: {fileID: 412970792}
 --- !u!1 &992212542
 GameObject:
   m_ObjectHideFlags: 0
@@ -1416,7 +1378,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Dodge
+  m_Text: SURVIVAL
 --- !u!222 &1093685748
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1513,7 +1475,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1173717948
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2090,7 +2052,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1980445962
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2220,7 +2182,6 @@ GameObject:
   - component: {fileID: 2075363634}
   - component: {fileID: 2075363637}
   - component: {fileID: 2075363636}
-  - component: {fileID: 2075363635}
   m_Layer: 5
   m_Name: Stage_2
   m_TagString: Untagged
@@ -2254,24 +2215,6 @@ RectTransform:
   m_AnchoredPosition: {x: 2, y: 0.5}
   m_SizeDelta: {x: 0, y: -3}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &2075363635
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2075363633}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7282fcaceac8f0345a55d1a3d85cb567, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hidden_object_button: {fileID: 757732167}
-  text_object: {fileID: 0}
-  db_playerpref_stage: hidden_object_1
-  star_playerpref_stage: hidden_object_star_1
-  star_1: {fileID: 2043053581}
-  star_2: {fileID: 312540157}
-  star_3: {fileID: 1528327635}
 --- !u!114 &2075363636
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2321,7 +2264,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2100772662
 RectTransform:
   m_ObjectHideFlags: 0
