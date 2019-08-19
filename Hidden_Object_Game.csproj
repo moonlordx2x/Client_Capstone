@@ -313,6 +313,7 @@
     <Compile Include="Assets\Script\Object_Script\Text_Script.cs" />
     <Compile Include="Assets\Script\Player\Player_Controller.cs" />
     <Compile Include="Assets\Script\Stage_2\Object\Falling_Object.cs" />
+    <Compile Include="Assets\Script\Stage_2\Object\Finish_Line.cs" />
     <Compile Include="Assets\Spriter2UnityDX\Runtime\EntityRenderer.cs" />
     <Compile Include="Assets\Spriter2UnityDX\Runtime\SortingOrderUpdater.cs" />
     <Compile Include="Assets\Spriter2UnityDX\Runtime\TextureController.cs" />

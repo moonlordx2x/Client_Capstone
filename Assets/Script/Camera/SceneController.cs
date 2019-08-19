@@ -57,12 +57,11 @@ public class SceneController : MonoBehaviour
     {
         SceneManager.LoadScene("Main_Stage_Menu");
         //PlayerPrefs.DeleteAll();
-
-        PlayerPrefs.SetInt("hidden_object_star_1", 0);
-        PlayerPrefs.SetInt("hidden_object_star_2", 0);
-        PlayerPrefs.SetInt("hidden_object_star_3", 0);
-        PlayerPrefs.SetInt("hidden_object_star_4", 0);
-        PlayerPrefs.SetInt("hidden_object_star_5", 0);
+        //PlayerPrefs.SetInt("hidden_object_star_1", 0);
+        //PlayerPrefs.SetInt("hidden_object_star_2", 0);
+        //PlayerPrefs.SetInt("hidden_object_star_3", 0);
+        //PlayerPrefs.SetInt("hidden_object_star_4", 0);
+        //PlayerPrefs.SetInt("hidden_object_star_5", 0);
         PlayerPrefs.SetString("hidden_object_1", "Completed");
     }
 }
