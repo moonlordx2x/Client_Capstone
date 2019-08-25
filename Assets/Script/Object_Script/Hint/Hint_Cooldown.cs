@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class Hint_Cooldown : MonoBehaviour {
 
     public Image hint_cooldown;
-    float total_cooldown_time = 10f;
+    float total_cooldown_time = 7f;
 
     // Use this for initialization
     void Start () {
@@ -20,7 +20,6 @@ public class Hint_Cooldown : MonoBehaviour {
         {
             this.gameObject.SetActive(true);
             hint_cooldown.fillAmount -= 1 / total_cooldown_time * Time.deltaTime;
-               
             if (hint_cooldown.fillAmount <= 0)
             {
                 hint_cooldown.fillAmount = 1;

@@ -9,36 +9,45 @@ public class Hint_Script : MonoBehaviour {
     public GameObject hint_cooldown;
     public GameObject hint_object;
     public GameObject text_object;
-
-    float hint_time = 5f;
-    bool hint_display = false;
+    Animator hint_animator;
+    Animator text_animator;
+    public static float hint_time = 5f;
+    public static bool hint_display = false;
     public static bool hint_cooldown_image = false;
+    public static bool hint_cooldown_time = false;
 
     void Start () {
+        text_animator = text_object.GetComponent<Animator>();
+        hint_animator = hint_object.GetComponent<Animator>();
+        hint_animator.SetTrigger("Idle");
         hint_cooldown.SetActive(false);
-        hint_object.SetActive(false);
+        //hint_object.SetActive(false);
     }
 	
 	// Update is called once per frame
 	void Update () {
         if(hint_display == true)
         {
-            hint_object.SetActive(true);
-            text_object.SetActive(false);
+            text_animator.SetTrigger("Exit");
+            //hint_object.SetActive(true);
+            //text_object.SetActive(false);
             hint_time -= Time.deltaTime;
-
+            hint_cooldown_time = true;
             if (hint_time <= 0)
             {
-                hint_object.SetActive(false);
-                text_object.SetActive(true);
+                hint_animator.SetTrigger("Exit");
+                //hint_object.SetActive(false);
+                //text_object.SetActive(true);
                 hint_display = false;
                 hint_time = 5f;
+                hint_cooldown_time = false;
             }
         }
         else
         {
-            hint_object.SetActive(false);
-            text_object.SetActive(true);
+            text_animator.SetTrigger("Entrance");
+            //hint_object.SetActive(false);
+            //text_object.SetActive(true);
         }
     }
 
@@ -46,6 +55,7 @@ public class Hint_Script : MonoBehaviour {
     {
         if(Hint_text.total_hint >= 1)
         {
+            hint_animator.SetTrigger("Entrance");
             hint_cooldown.SetActive(true);
             Hint_text.total_hint -= 1;
             hint_display = true;

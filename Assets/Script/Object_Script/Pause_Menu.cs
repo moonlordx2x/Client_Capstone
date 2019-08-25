@@ -16,8 +16,12 @@ public class Pause_Menu : MonoBehaviour {
     public GameObject object3;
     public GameObject object4;
     public GameObject pause_menu;
+    Animator hint_animator;
+    Animator text_animator;
 
     void Start () {
+        text_animator = text_object.GetComponent<Animator>();
+        hint_animator = hint_object.GetComponent<Animator>();
         Time.timeScale = 1f;
         pause_menu.SetActive(false);
     }
@@ -59,5 +63,18 @@ public class Pause_Menu : MonoBehaviour {
         object3.SetActive(true);
         object4.SetActive(true);
         pause_menu.SetActive(false);
+
+        if(Hint_Script.hint_display == true)
+        {
+            text_animator.SetTrigger("Exit");
+            hint_animator.SetTrigger("Entrance");
+        }
+        else
+        {
+            text_animator.SetTrigger("Entrance");
+            hint_animator.SetTrigger("Exit");
+        }
+
+
     }
 }

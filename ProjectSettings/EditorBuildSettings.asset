@@ -35,3 +35,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scene/Main_Stage_Menu.unity
     guid: fa7fadcb7943d0343bb472a45f512806
+  - enabled: 1
+    path: Assets/Scene/Hidden_Object_Sample.unity
+    guid: c47503fc2ebd7ab49b012b626e746c98

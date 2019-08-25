@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scene/Dodge_Stage_1.unity
+- path: Assets/Scene/Hidden_Object_Sample.unity
   isLoaded: 1
   isActive: 1

@@ -63,8 +63,6 @@ public class CountDownTimer : MonoBehaviour {
         int player_int = PlayerPrefs.GetInt(star_playerpref);
         string player_string = PlayerPrefs.GetString(db_playerpref);
 
-        Debug.Log(startime);
-
         if (Click_Event.object_found == 10)
         {
             Success.SetActive(true);

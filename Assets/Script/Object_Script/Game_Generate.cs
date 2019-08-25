@@ -11,8 +11,11 @@ public class Game_Generate : MonoBehaviour {
     public GameObject loading_object;
     public GameObject Animation;
     float timer = 0.20f;
-	// Use this for initialization
-	void Start () {
+
+    Animator hind_animator;
+    // Use this for initialization
+    void Start () {
+
         text_object.SetActive(true);
         loading_object.SetActive(true);
         Animation.SetActive(false);
@@ -23,10 +26,8 @@ public class Game_Generate : MonoBehaviour {
 
 
         loading.fillAmount += timer * Time.deltaTime;
-        hint_object.SetActive(true);
         if (loading.fillAmount >= 1)
         {
-            hint_object.SetActive(false);
             loading_object.SetActive(false);
             text_object.SetActive(true);
             Animation.SetActive(true);

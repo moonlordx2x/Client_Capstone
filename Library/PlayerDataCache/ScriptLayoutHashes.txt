@@ -12,6 +12,7 @@ Assets/Scene/Hidden_Object_5.unity
 Assets/Scene/Dodge_Stage_1.unity
 Assets/Scene/Dodge_Stage_Select.unity
 Assets/Scene/Main_Stage_Menu.unity
+Assets/Scene/Hidden_Object_Sample.unity
 SceneListEnd?
 9b9c71cf06a525199c2eb4d3be433bc2 Assembly-CSharp.dll:Cinemachine.CinemachineStateDrivenCamera
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Camera_raio
@@ -205,7 +206,7 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 9de3a22eca9aefadba2d10d5987cefe3 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 f739fe68956c7babcc274f024cbc4a87 Assembly-CSharp.dll:Cinemachine.CinemachineSmoothPath
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:Cinemachine.CinemachineHardLookAt
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Text_Script
+e964ac0a14db3c3fbf6e1b5307c4d663 Assembly-CSharp.dll:.Text_Script
 65afd4bed2c040b6cd005c2dcd2b1020 Assembly-CSharp.dll:.Stage_Select
 a8796ecdc9d5c260bbe32f30c4b10708 Assembly-CSharp-firstpass.dll:UnityStandardAssets.CrossPlatformInput.TouchPad
 5ed7316911b08cc89d1da8aff41eee6f Assembly-CSharp.dll:.Hint_Cooldown
