@@ -5,9 +5,12 @@ using UnityEngine.UI;
 
 public class Text_Script : MonoBehaviour {
 
-    public static GameObject[] text_object = new GameObject[9];
+    public GameObject[] Text_element_Object;
+    public GameObject[] Image_element_Object;
+
+    public static GameObject[] text_object = new GameObject[10];
     public static GameObject[] hidden_object;
-    public static GameObject[] hint_object = new GameObject[9];
+    public static GameObject[] hint_object = new GameObject[10];
 
     Text text;
     Sprite sprite;
@@ -61,7 +64,7 @@ public class Text_Script : MonoBehaviour {
         text_9.name = "" + hidden_object[8].name;
         text_10.name = "" + hidden_object[9].name;
 
-        /*
+       
         text_1.gameObject.SetActive(false);
         text_2.gameObject.SetActive(false);
         text_3.gameObject.SetActive(false);
@@ -72,22 +75,32 @@ public class Text_Script : MonoBehaviour {
         text_8.gameObject.SetActive(false);
         text_9.gameObject.SetActive(false);
         text_10.gameObject.SetActive(false);
-        */
+        
 
 
 
         for (int i = 0; i < 10; i++)
         {
-            
+            /*
             text = text_object[i].GetComponentInChildren<Text>();
             text_object[i].name = hidden_object[i].name;
             text.text = "" + hidden_object[i].name;
+            */
 
-            hint_object[i].name = hidden_object[i].name;
-            sprite = Resources.Load(hint_object[i].name, typeof(Sprite)) as Sprite;
-            hint_object[i].GetComponentInChildren<Image>().sprite = sprite;
+            text = Text_element_Object[i].GetComponentInChildren<Text>();
+            Text_element_Object[i].name = hidden_object[i].name;
+            text.text = "" + hidden_object[i].name;
 
-            Debug.Log(text_object[i].name + hidden_object[i].name + hint_object[i].name);
+            text_object[i] = Text_element_Object[i];
+
+            Image_element_Object[i].name = hidden_object[i].name;
+            sprite = Resources.Load(Image_element_Object[i].name, typeof(Sprite)) as Sprite;
+            Image_element_Object[i].GetComponentInChildren<Image>().sprite = sprite;
+
+            hint_object[i] = Image_element_Object[i];
+
+            //Debug.Log(text_object[i].name + hidden_object[i].name + hint_object[i].name);
+            //Debug.Log(sample[i].name);
 
         }
 

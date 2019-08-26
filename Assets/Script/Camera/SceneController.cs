@@ -55,8 +55,8 @@ public class SceneController : MonoBehaviour
 
     public void Main_Stage_Menu()
     {
-        //SceneManager.LoadScene("Main_Stage_Menu");
-        SceneManager.LoadScene("Hidden_Object_Sample");
+        SceneManager.LoadScene("Main_Stage_Menu");
+        //SceneManager.LoadScene("Hidden_Object_Sample");
         //PlayerPrefs.DeleteAll();
         //PlayerPrefs.SetInt("hidden_object_star_1", 0);
         //PlayerPrefs.SetInt("hidden_object_star_2", 0);

@@ -13,15 +13,20 @@ public class Click_Event : MonoBehaviour {
     Animator animator;
     Animator image_animator;
 
+    Text_Script text_script;
+
     // Use this for initialization
     void Start()
     {
         object_found = 0;
+        text_script = gameObject.GetComponent<Text_Script>();
+        
     }
 
     // Update is called once per frame
     void Update()
     {
+
     }
 
     public void ClickEvent()
@@ -29,6 +34,7 @@ public class Click_Event : MonoBehaviour {
         Click_event_variable = this.gameObject.name.ToString();
         for (int i = 0; i < Text_Script.text_object.Length; i++)
         {
+            Debug.Log(Text_Script.text_object[i]);
 
             if (Text_Script.hint_object[i].activeSelf == false)
             {
@@ -67,6 +73,11 @@ public class Click_Event : MonoBehaviour {
                 this.gameObject.SetActive(false);
 
 
+            }
+            else
+            {
+                CountDownTimer.startime -= (5 * Time.deltaTime);
+                Debug.Log(CountDownTimer.startime);
             }
             //break;
         }
