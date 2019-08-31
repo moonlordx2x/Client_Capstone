@@ -25,6 +25,9 @@ public class Finish_Line : MonoBehaviour
         {
             Success_menu.SetActive(true);
             Time.timeScale = 0f;
+            int gem = PlayerPrefs.GetInt("Gem");
+            gem += 5;
+            PlayerPrefs.SetInt("Gem", gem);
         }
 
     }

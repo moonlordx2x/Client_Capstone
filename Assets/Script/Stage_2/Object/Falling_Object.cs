@@ -27,7 +27,6 @@ public class Falling_Object : MonoBehaviour {
         {
             Physics2D.gravity = new Vector2(0, Gravity_speed);
             rb.isKinematic = false;
-            Debug.Log("Found Player");
         }
     }
 

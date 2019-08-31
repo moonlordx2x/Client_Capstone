@@ -9,14 +9,14 @@ public class Player_Controller : MonoBehaviour {
     private float movement = 0f;
     public Animator animate;
     public Rigidbody2D Rigidbody2D;
-    public GameObject Game_over;
+    public GameObject Revive;
 
 
     // Use this for initialization
     void Start() {
         Rigidbody2D = GetComponent<Rigidbody2D>();
         animate = GetComponent<Animator>();
-        Game_over.SetActive(false);
+        Revive.SetActive(false);
 
     }
 
@@ -42,7 +42,7 @@ public class Player_Controller : MonoBehaviour {
     {
         if(col.gameObject.tag == "Falling_Object")
         {
-            Game_over.SetActive(true);
+            Revive.SetActive(true);
             Time.timeScale = 0f;
         }
     }

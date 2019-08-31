@@ -301,6 +301,7 @@
     <Compile Include="Assets\Script\Camera\SceneController.cs" />
     <Compile Include="Assets\Script\Camera\Stage_Select.cs" />
     <Compile Include="Assets\Script\Game_Script\CountDownTimer.cs" />
+    <Compile Include="Assets\Script\Game_Script\Gem_Coin_Script.cs" />
     <Compile Include="Assets\Script\Object_Script\Click_Event.cs" />
     <Compile Include="Assets\Script\Object_Script\Game_Generate.cs" />
     <Compile Include="Assets\Script\Object_Script\Hint\Hint_Cooldown.cs" />
@@ -314,6 +315,8 @@
     <Compile Include="Assets\Script\Player\Player_Controller.cs" />
     <Compile Include="Assets\Script\Stage_2\Object\Falling_Object.cs" />
     <Compile Include="Assets\Script\Stage_2\Object\Finish_Line.cs" />
+    <Compile Include="Assets\Script\Stage_2\Progress_Bar\Progress_bar_player_location.cs" />
+    <Compile Include="Assets\Script\Stage_2\Revive\Coin_and_Gem_Revive.cs" />
     <Compile Include="Assets\Spriter2UnityDX\Runtime\EntityRenderer.cs" />
     <Compile Include="Assets\Spriter2UnityDX\Runtime\SortingOrderUpdater.cs" />
     <Compile Include="Assets\Spriter2UnityDX\Runtime\TextureController.cs" />

@@ -6,7 +6,6 @@ using UnityEngine.SceneManagement;
 
 public class SceneController : MonoBehaviour
 {
-
     public void start()
     {
         SceneManager.LoadScene("Start_Menu");
@@ -63,6 +62,17 @@ public class SceneController : MonoBehaviour
         //PlayerPrefs.SetInt("hidden_object_star_3", 0);
         //PlayerPrefs.SetInt("hidden_object_star_4", 0);
         //PlayerPrefs.SetInt("hidden_object_star_5", 0);
+
+        if (PlayerPrefs.GetString("Game_Coins") == "")
+        {
+            PlayerPrefs.SetInt("Coin", 100);
+            PlayerPrefs.SetInt("Gem", 50);
+            PlayerPrefs.SetString("Game_Coins", "Game_Active");
+        }
+        else
+        {
+            Debug.Log(PlayerPrefs.GetInt("Coin")+"  "+ PlayerPrefs.GetInt("Gem"));
+        }
         PlayerPrefs.SetString("hidden_object_1", "Completed");
     }
 }

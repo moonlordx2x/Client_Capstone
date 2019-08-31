@@ -10,6 +10,8 @@ TagManager:
   - Player_Tag
   - Platform
   - Falling_Object
+  - Coin_Text
+  - Gem_Text
   layers:
   - Default
   - TransparentFX
