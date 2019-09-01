@@ -350,7 +350,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 28603819}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -159.3, y: -10.2, z: 50.495857}
+  m_LocalPosition: {x: -79.3, y: -10.2, z: 50.495857}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1146403763}
@@ -1061,7 +1061,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 158780668}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 64, y: -21.5, z: 0}
+  m_LocalPosition: {x: 248.2, y: -21.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1146403763}
@@ -2228,7 +2228,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 359525705}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -151.4, y: -21.5, z: 0}
+  m_LocalPosition: {x: -71.399994, y: -21.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1146403763}
@@ -2368,7 +2368,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 379807574}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 426.9, y: -21.5, z: 0}
+  m_LocalPosition: {x: 570.6, y: -21.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1146403763}
@@ -3251,7 +3251,7 @@ RectTransform:
   - {fileID: 129099694}
   - {fileID: 1267976566}
   m_Father: {fileID: 1923097755}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -3934,7 +3934,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 552473719}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 206.1, y: 55.7, z: 25.75}
+  m_LocalPosition: {x: 304.1, y: 55.4, z: 25.75}
   m_LocalScale: {x: 1.6619099, y: 1.6816499, z: 1}
   m_Children: []
   m_Father: {fileID: 1745007029}
@@ -4154,7 +4154,7 @@ GameObject:
   - component: {fileID: 567154679}
   - component: {fileID: 567154678}
   m_Layer: 0
-  m_Name: Falling_Object_1 (1)
+  m_Name: Falling_Object_5
   m_TagString: Falling_Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4167,7 +4167,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 567154676}
   m_LocalRotation: {x: -0, y: -0, z: -0.03745833, w: 0.9992982}
-  m_LocalPosition: {x: 479.31006, y: 48.55, z: 25.75}
+  m_LocalPosition: {x: 381.1, y: 49.3, z: 25.75}
   m_LocalScale: {x: 0.6942301, y: 0.50233996, z: 1}
   m_Children: []
   m_Father: {fileID: 1745007029}
@@ -4255,7 +4255,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 567154678}
-  Gravity_speed: -100
+  Gravity_speed: -250
 --- !u!212 &567154682
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4994,7 +4994,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 666864616}
   m_LocalRotation: {x: -0, y: -0, z: -0.03745833, w: 0.9992982}
-  m_LocalPosition: {x: 315.81006, y: 48.55, z: 25.75}
+  m_LocalPosition: {x: 233.8, y: 48.3, z: 25.75}
   m_LocalScale: {x: 0.6942301, y: 0.50233996, z: 1}
   m_Children: []
   m_Father: {fileID: 1745007029}
@@ -5082,7 +5082,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 666864618}
-  Gravity_speed: -200
+  Gravity_speed: -250
 --- !u!212 &666864622
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6475,7 +6475,7 @@ GameObject:
   - component: {fileID: 920406981}
   - component: {fileID: 920406980}
   m_Layer: 0
-  m_Name: Falling_Object_4 (1)
+  m_Name: Falling_Object_8
   m_TagString: Falling_Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6488,7 +6488,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 920406978}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 541, y: 55.7, z: 25.75}
+  m_LocalPosition: {x: 696.1, y: 57.2, z: 25.75}
   m_LocalScale: {x: 1.6619099, y: 1.6816499, z: 1}
   m_Children: []
   m_Father: {fileID: 1745007029}
@@ -7149,7 +7149,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1030747433}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 34.7, y: 55.7, z: 25.75}
+  m_LocalPosition: {x: 145.6, y: 54, z: 25.75}
   m_LocalScale: {x: 1.6619148, y: 1.6816511, z: 1}
   m_Children: []
   m_Father: {fileID: 1745007029}
@@ -7231,7 +7231,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 1030747435}
-  Gravity_speed: -150
+  Gravity_speed: -250
 --- !u!61 &1030747438
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7762,7 +7762,7 @@ GameObject:
   - component: {fileID: 1118941855}
   - component: {fileID: 1118941854}
   m_Layer: 0
-  m_Name: Falling_Object_4 (2)
+  m_Name: Falling_Object_12
   m_TagString: Falling_Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7775,7 +7775,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1118941852}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 906.4, y: 55.7, z: 25.75}
+  m_LocalPosition: {x: 1080.6, y: 57.7, z: 25.75}
   m_LocalScale: {x: 1.6619099, y: 1.6816499, z: 1}
   m_Children: []
   m_Father: {fileID: 1745007029}
@@ -8498,7 +8498,7 @@ GameObject:
   - component: {fileID: 1220083979}
   - component: {fileID: 1220083978}
   m_Layer: 0
-  m_Name: Falling_Object_2 (2)
+  m_Name: Falling_Object_10
   m_TagString: Falling_Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8511,7 +8511,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1220083976}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 735, y: 55.7, z: 25.75}
+  m_LocalPosition: {x: 909.8, y: 56, z: 25.75}
   m_LocalScale: {x: 1.6619099, y: 1.6816499, z: 1}
   m_Children: []
   m_Father: {fileID: 1745007029}
@@ -8554,7 +8554,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 1220083981}
-  Gravity_speed: -150
+  Gravity_speed: -250
 --- !u!61 &1220083980
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10018,7 +10018,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1356503647}
   m_LocalRotation: {x: -0, y: -0, z: -0.03745833, w: 0.9992982}
-  m_LocalPosition: {x: 144.41, y: 48.55, z: 25.75}
+  m_LocalPosition: {x: 59.2, y: 50.3, z: 25.75}
   m_LocalScale: {x: 0.6942328, y: 0.5023386, z: 1}
   m_Children: []
   m_Father: {fileID: 1745007029}
@@ -10106,7 +10106,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 1356503649}
-  Gravity_speed: -100
+  Gravity_speed: -250
 --- !u!212 &1356503653
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10666,7 +10666,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1422167551}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 445.5, y: -10.199999, z: 50.495857}
+  m_LocalPosition: {x: 589.19995, y: -10.199999, z: 50.495857}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1146403763}
@@ -11109,7 +11109,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1479491653}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 91.6, y: -21.5, z: 0}
+  m_LocalPosition: {x: 275.79996, y: -21.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1146403763}
@@ -12575,7 +12575,7 @@ RectTransform:
   - {fileID: 633546773}
   - {fileID: 914397376}
   m_Father: {fileID: 1923097755}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -12674,7 +12674,7 @@ GameObject:
   - component: {fileID: 1710706073}
   - component: {fileID: 1710706072}
   m_Layer: 0
-  m_Name: Falling_Object_3 (2)
+  m_Name: Falling_Object_11
   m_TagString: Falling_Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12687,7 +12687,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1710706070}
   m_LocalRotation: {x: -0, y: -0, z: -0.03745833, w: 0.9992982}
-  m_LocalPosition: {x: 1016.1101, y: 48.55, z: 25.75}
+  m_LocalPosition: {x: 992.9, y: 48.5, z: 25.75}
   m_LocalScale: {x: 0.6942301, y: 0.50233996, z: 1}
   m_Children: []
   m_Father: {fileID: 1745007029}
@@ -12775,7 +12775,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 1710706072}
-  Gravity_speed: -200
+  Gravity_speed: -250
 --- !u!212 &1710706076
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13209,7 +13209,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1739142923}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 456.5, y: -21.5, z: 0}
+  m_LocalPosition: {x: 600.19995, y: -21.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1146403763}
@@ -13379,7 +13379,7 @@ GameObject:
   - component: {fileID: 1764345355}
   - component: {fileID: 1764345354}
   m_Layer: 0
-  m_Name: Falling_Object_2 (1)
+  m_Name: Falling_Object_6
   m_TagString: Falling_Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13392,7 +13392,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1764345352}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 369.59998, y: 55.7, z: 25.75}
+  m_LocalPosition: {x: 475.2, y: 55.3, z: 25.75}
   m_LocalScale: {x: 1.6619099, y: 1.6816499, z: 1}
   m_Children: []
   m_Father: {fileID: 1745007029}
@@ -13435,7 +13435,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 1764345357}
-  Gravity_speed: -150
+  Gravity_speed: -250
 --- !u!61 &1764345356
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13539,7 +13539,7 @@ GameObject:
   - component: {fileID: 1771580277}
   - component: {fileID: 1771580276}
   m_Layer: 0
-  m_Name: Falling_Object_3 (1)
+  m_Name: Falling_Object_7
   m_TagString: Falling_Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13552,7 +13552,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1771580274}
   m_LocalRotation: {x: -0, y: -0, z: -0.03745833, w: 0.9992982}
-  m_LocalPosition: {x: 650.7101, y: 48.55, z: 25.75}
+  m_LocalPosition: {x: 589.6, y: 48.7, z: 25.75}
   m_LocalScale: {x: 0.6942301, y: 0.50233996, z: 1}
   m_Children: []
   m_Father: {fileID: 1745007029}
@@ -13640,7 +13640,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 1771580276}
-  Gravity_speed: -200
+  Gravity_speed: -250
 --- !u!212 &1771580280
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14139,7 +14139,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1865074710}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 82.6, y: -10.199999, z: 50.495857}
+  m_LocalPosition: {x: 266.79996, y: -10.199999, z: 50.495857}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1146403763}
@@ -14495,8 +14495,8 @@ RectTransform:
   m_Children:
   - {fileID: 2103837899}
   - {fileID: 1104878166}
-  - {fileID: 478761941}
   - {fileID: 1708530244}
+  - {fileID: 478761941}
   - {fileID: 1107069899}
   - {fileID: 1388646873}
   - {fileID: 1157776621}
@@ -14680,7 +14680,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1960562020}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -177.2, y: -21.5, z: 0}
+  m_LocalPosition: {x: -97.2, y: -21.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1146403763}
@@ -15253,7 +15253,7 @@ GameObject:
   - component: {fileID: 2041983805}
   - component: {fileID: 2041983804}
   m_Layer: 0
-  m_Name: Falling_Object_1 (2)
+  m_Name: Falling_Object_9
   m_TagString: Falling_Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15266,7 +15266,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2041983802}
   m_LocalRotation: {x: -0, y: -0, z: -0.03745833, w: 0.9992982}
-  m_LocalPosition: {x: 844.7101, y: 48.55, z: 25.75}
+  m_LocalPosition: {x: 786.4, y: 48.3, z: 25.75}
   m_LocalScale: {x: 0.6942301, y: 0.50233996, z: 1}
   m_Children: []
   m_Father: {fileID: 1745007029}
@@ -15354,7 +15354,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 2041983804}
-  Gravity_speed: -100
+  Gravity_speed: -250
 --- !u!212 &2041983808
 SpriteRenderer:
   m_ObjectHideFlags: 0

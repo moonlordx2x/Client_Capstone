@@ -300,6 +300,8 @@
     <Compile Include="Assets\Script\Camera\Data_Base.cs" />
     <Compile Include="Assets\Script\Camera\SceneController.cs" />
     <Compile Include="Assets\Script\Camera\Stage_Select.cs" />
+    <Compile Include="Assets\Script\Game_Script\Buy_Hint_Coin_Gem.cs" />
+    <Compile Include="Assets\Script\Game_Script\Coin_Gem_Hint.cs" />
     <Compile Include="Assets\Script\Game_Script\CountDownTimer.cs" />
     <Compile Include="Assets\Script\Game_Script\Gem_Coin_Script.cs" />
     <Compile Include="Assets\Script\Object_Script\Click_Event.cs" />

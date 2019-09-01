@@ -65,6 +65,10 @@ public class CountDownTimer : MonoBehaviour {
 
         if (Click_Event.object_found == 10)
         {
+            int coin = PlayerPrefs.GetInt("Coin");
+            coin += 15;
+            PlayerPrefs.SetInt("Coin",coin);
+
             Success.SetActive(true);
             Game_over.SetActive(false);
             hidden_object.SetActive(false);

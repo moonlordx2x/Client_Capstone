@@ -47,6 +47,16 @@ public class SceneController : MonoBehaviour
         SceneManager.LoadScene("Dodge_Stage_1");
     }
 
+    public void Dodge_Stage_2()
+    {
+        SceneManager.LoadScene("Dodge_Stage_2");
+    }
+
+    public void Dodge_Stage_3()
+    {
+        SceneManager.LoadScene("Dodge_Stage_3");
+    }
+
     public void Dodge_Stage_Select()
     {
         SceneManager.LoadScene("Dodge_Stage_Select");
@@ -65,8 +75,8 @@ public class SceneController : MonoBehaviour
 
         if (PlayerPrefs.GetString("Game_Coins") == "")
         {
-            PlayerPrefs.SetInt("Coin", 100);
-            PlayerPrefs.SetInt("Gem", 50);
+            PlayerPrefs.SetInt("Coin", 500);
+            PlayerPrefs.SetInt("Gem", 500);
             PlayerPrefs.SetString("Game_Coins", "Game_Active");
         }
         else

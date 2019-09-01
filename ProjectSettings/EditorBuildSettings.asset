@@ -30,6 +30,12 @@ EditorBuildSettings:
     path: Assets/Scene/Dodge_Stage_1.unity
     guid: 9f24de73942a02240880315655e24da5
   - enabled: 1
+    path: Assets/Scene/Dodge_Stage_2.unity
+    guid: 48700986308cad849832b3049ac232fc
+  - enabled: 1
+    path: Assets/Scene/Dodge_Stage_3.unity
+    guid: 79b8e89a963d11b4aaeca5fc90e3cd7a
+  - enabled: 1
     path: Assets/Scene/Dodge_Stage_Select.unity
     guid: a9bded0059b25494c8617c3f5b8d802c
   - enabled: 1

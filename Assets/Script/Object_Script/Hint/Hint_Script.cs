@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class Hint_Script : MonoBehaviour {
 
-
+    public GameObject add_hint_button;
     public GameObject hint_cooldown;
     public GameObject hint_object;
     public GameObject text_object;
@@ -16,16 +16,19 @@ public class Hint_Script : MonoBehaviour {
     public static bool hint_cooldown_image = false;
     public static bool hint_cooldown_time = false;
 
+    int coin;
+    int gem;
+
     void Start () {
         text_animator = text_object.GetComponent<Animator>();
         hint_animator = hint_object.GetComponent<Animator>();
         hint_animator.SetTrigger("Idle");
         hint_cooldown.SetActive(false);
-        //hint_object.SetActive(false);
+        add_hint_button.SetActive(false);
     }
-	
-	// Update is called once per frame
-	void Update () {
+
+    // Update is called once per frame
+    void Update () {
         if(hint_display == true)
         {
             text_animator.SetTrigger("Exit");
@@ -48,6 +51,14 @@ public class Hint_Script : MonoBehaviour {
             text_animator.SetTrigger("Entrance");
             //hint_object.SetActive(false);
             //text_object.SetActive(true);
+        }
+
+        coin = PlayerPrefs.GetInt("Coin");
+        gem = PlayerPrefs.GetInt("Gem");
+
+        if (Hint_text.total_hint <= 0)
+        {
+            add_hint_button.SetActive(true);
         }
     }
 
