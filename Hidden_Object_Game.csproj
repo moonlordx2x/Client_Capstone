@@ -306,6 +306,7 @@
     <Compile Include="Assets\Script\Game_Script\Gem_Coin_Script.cs" />
     <Compile Include="Assets\Script\Object_Script\Click_Event.cs" />
     <Compile Include="Assets\Script\Object_Script\Game_Generate.cs" />
+    <Compile Include="Assets\Script\Object_Script\Game_Generate_Survival.cs" />
     <Compile Include="Assets\Script\Object_Script\Hint\Hint_Cooldown.cs" />
     <Compile Include="Assets\Script\Object_Script\Hint\Hint_Script.cs" />
     <Compile Include="Assets\Script\Object_Script\Hint\Hint_text.cs" />
