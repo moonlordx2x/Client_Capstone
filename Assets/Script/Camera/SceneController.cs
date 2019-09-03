@@ -67,11 +67,7 @@ public class SceneController : MonoBehaviour
         SceneManager.LoadScene("Main_Stage_Menu");
         //SceneManager.LoadScene("Hidden_Object_Sample");
         PlayerPrefs.DeleteAll();
-        //PlayerPrefs.SetInt("hidden_object_star_1", 0);
-        //PlayerPrefs.SetInt("hidden_object_star_2", 0);
-        //PlayerPrefs.SetInt("hidden_object_star_3", 0);
-        //PlayerPrefs.SetInt("hidden_object_star_4", 0);
-        //PlayerPrefs.SetInt("hidden_object_star_5", 0);
+        
 
         if (PlayerPrefs.GetString("Game_Coins") == "")
         {
@@ -84,5 +80,18 @@ public class SceneController : MonoBehaviour
             Debug.Log(PlayerPrefs.GetInt("Coin")+"  "+ PlayerPrefs.GetInt("Gem"));
         }
         PlayerPrefs.SetString("hidden_object_1", "Completed");
+        //PlayerPrefs.SetString("hidden_object_2", "Completed");
+        //PlayerPrefs.SetString("hidden_object_3", "Completed");
+        //PlayerPrefs.SetString("hidden_object_4", "Completed");
+        //PlayerPrefs.SetString("hidden_object_5", "Completed");
+
+        //PlayerPrefs.SetInt("hidden_object_star_1", 3);
+        //PlayerPrefs.SetInt("hidden_object_star_2", 3);
+        //PlayerPrefs.SetInt("hidden_object_star_3", 3);
+        //PlayerPrefs.SetInt("hidden_object_star_4", 3);
+        //PlayerPrefs.SetInt("hidden_object_star_5", 3);
+
+        //PlayerPrefs.SetString("Survival_2", "Completed");
+        //PlayerPrefs.SetString("Survival_3", "Completed");
     }
 }

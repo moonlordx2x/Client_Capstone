@@ -8411,6 +8411,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Success_menu: {fileID: 1708530243}
+  survival_db: Survival_2
 --- !u!1 &1218722230
 GameObject:
   m_ObjectHideFlags: 0

@@ -6,6 +6,7 @@ public class Finish_Line : MonoBehaviour
 {
 
     public GameObject Success_menu;
+    public string survival_db;
 
     // Use this for initialization
     void Start()
@@ -28,6 +29,7 @@ public class Finish_Line : MonoBehaviour
             int gem = PlayerPrefs.GetInt("Gem");
             gem += 5;
             PlayerPrefs.SetInt("Gem", gem);
+            PlayerPrefs.SetString(survival_db, "Completed");
         }
 
     }
