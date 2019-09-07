@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scene/Start_Menu.unity
+- path: Assets/Scene/Werewolf_Stage_Boss.unity
   isLoaded: 1
   isActive: 1

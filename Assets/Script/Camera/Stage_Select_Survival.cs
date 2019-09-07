@@ -15,10 +15,11 @@ public class Stage_Select_Survival : MonoBehaviour {
 
         if (this.gameObject.name == "Stage_1")
         {
-            if (PlayerPrefs.GetString("hidden_object_5") == "")
+            if (PlayerPrefs.GetString("Survival_1") == "")
             {
                 survival_text.SetActive(true);
                 survival_button.SetActive(false);
+                Debug.Log(PlayerPrefs.GetString("Survival_1"));
             }
             else
             {

@@ -9044,7 +9044,7 @@ MonoBehaviour:
   object4: {fileID: 2084692908}
   pause_menu: {fileID: 660057539}
   text: {fileID: 2084692910}
-  db_playerpref: hidden_object_5
+  db_playerpref: Survival_1
   star_playerpref: hidden_object_star_5
 --- !u!1001 &2097728862
 Prefab:

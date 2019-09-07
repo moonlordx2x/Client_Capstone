@@ -62,11 +62,22 @@ public class SceneController : MonoBehaviour
         SceneManager.LoadScene("Dodge_Stage_Select");
     }
 
+
+    public void Werewolf_Stage_1()
+    {
+        SceneManager.LoadScene("Werewolf_Stage_Boss");
+    }
+
+    public void Werewolf_Stage_Select()
+    {
+        SceneManager.LoadScene("Werewolf_Stage_Select");
+    }
+
     public void Main_Stage_Menu()
     {
         SceneManager.LoadScene("Main_Stage_Menu");
         //SceneManager.LoadScene("Hidden_Object_Sample");
-        PlayerPrefs.DeleteAll();
+        //PlayerPrefs.DeleteAll();
         
 
         if (PlayerPrefs.GetString("Game_Coins") == "")

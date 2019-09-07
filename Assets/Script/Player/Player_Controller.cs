@@ -27,14 +27,24 @@ public class Player_Controller : MonoBehaviour {
 
         if (movement < 0 || Input.GetKey("a")) { transform.localScale = new Vector2(-1f, 1f);
             animate.SetTrigger("Running");
+            animate.ResetTrigger("Idle");
         }
         else if (movement > 0 || Input.GetKey("d")) { transform.localScale = new Vector2(1f, 1f);
             animate.SetTrigger("Running");
+            animate.ResetTrigger("Idle");
+        }
+        else if (CrossPlatformInputManager.GetButtonDown("Fire1"))
+        {
+            animate.SetTrigger("Attack");
+            animate.ResetTrigger("Running");
+            animate.ResetTrigger("Idle");
         }
         else {
             Rigidbody2D.velocity = new Vector2(0, Rigidbody2D.velocity.y);
             animate.SetTrigger("Idle");
+            animate.ResetTrigger("Running");
         }
+
     }
 
 
