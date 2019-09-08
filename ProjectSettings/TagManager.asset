@@ -12,6 +12,8 @@ TagManager:
   - Falling_Object
   - Coin_Text
   - Gem_Text
+  - Left_Ground
+  - Right_Ground
   layers:
   - Default
   - TransparentFX

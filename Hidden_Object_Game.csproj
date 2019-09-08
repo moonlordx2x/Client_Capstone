@@ -322,6 +322,7 @@
     <Compile Include="Assets\Script\Stage_2\Progress_Bar\Progress_bar_player_location.cs" />
     <Compile Include="Assets\Script\Stage_2\Revive\Coin_and_Gem_Revive.cs" />
     <Compile Include="Assets\Script\Stage_3_Boos\Attack_Button.cs" />
+    <Compile Include="Assets\Script\Stage_3_Boos\Enemy_Movement.cs" />
     <Compile Include="Assets\Spriter2UnityDX\Runtime\EntityRenderer.cs" />
     <Compile Include="Assets\Spriter2UnityDX\Runtime\SortingOrderUpdater.cs" />
     <Compile Include="Assets\Spriter2UnityDX\Runtime\TextureController.cs" />
